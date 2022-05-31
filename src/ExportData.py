@@ -1,7 +1,7 @@
 """Nom : ExportData.py
    Auteur : Estelle Rosset
    Modifié le : 25/04/2022
-   Description : Script permettant l'export des données dans un CSV
+   Description : Script permettant l'export des données dans un csv
    à partir d'une liste de plusieurs objets de type logement"""
 
 import logging
