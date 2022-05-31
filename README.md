@@ -14,18 +14,18 @@ L'objectif de ce projet est d'avoir un package de démarrage pour vos projets r�
 Celui-ci doit faciliter votre organisation lors de vos développements.
 Vous pouvez y retrouver différents dossiers et eléments dont chacun répond à des objectifs précis :
 
-    * dossier config : On y met les fichiers de config pour configurer une connexion à un serveur/une BDD, ou encore spécifier la configuration de nos logs;
-    * dossier data : Répertorie les fichiers de données en entrée dans un premier sous-dossier et les données en sortie dans un second.
-    * dossier documentation : Permets d'enregistrer dans un emplacement défini les documentations relatives à votre projet. Pour le starter pack, on y retrouve les documents rédigés sur les bonnes pratiques de développement et la Programmation Orientée Objet (POO) notamment.
-    * dossier logs : Contient les fichiers de logs générés lors de l'exécution de nos programmes Python. Ce dossier a été spécifié dans le fichier du dossier config.
-    * dossier src : Les différents scripts Python nécessaires au fonctionnement du projet sont enregistrés dans ce dossier et peuvent être appelés dans le traitement principal main.py.
-    * dossier tests : Dossier où sont enregistrés les différents scripts permettant de faire les tests unitaires (TU) de notre code. Les tests qu'ils contient sont exécutés avec la commande "pytest" dans le terminal. La première fois qu'on lance le protocole de test dans notre répertoire projet, un dossier automatique ".pytest_cache" est également créé.
-    * fichier main.py : Script principal du projet que l'on exécute pour que le traitement attendu soit réalisé. Il fait appel aux différentes classes du dossier src.
-    * fichier COVERAGE : Il est automatiquement généré dès qu'on évalue la couverture (coverage) des tests de notre projet. Pour   cela il faut installer le package coverage et exécuter la commande "coverage run -m pytest".
-    * fichier setup.cfg : Fichier de configuration utilisé pour décrire de manière macro le contenu d'un répertoire projet et les informations principales qui en découlent.
-    * fichier requirements.txt : Il contient les packages présents sur l'environnement de travail du développeur et qui sont donc nécessaires au bon fonctionnement du code. On génère ce fichier par la commande "pip3 freeze > requirements.txt"
-    * fichier LICENSE : Spécifie par quelle license juridique est couvert notre projet. Ici, on retrouve la licence gratuite MIT qui accorde aux utilisateurs finaux du logiciel des droits tels que la copie, la modification, la distribution, etc. Celle-ci n'est pas soumise aux droits d'auteur et les développeurs sont libres d'apporter des modifications comme bon leur semble, elle est donc parfaitement adaptée au projet open source. En fonction de vos projets, se renseigner sur les autres licenses existantes pour protéger votre projet. 
-    * fichier README.md : C'est le présent fichier. Il constitue la documentation principale du projet, c'est-à-dire celle qui doit être lue en premier par un utilisateur qui veut comprendre de quoi le projet traite.
+* dossier config : On y met les fichiers de config pour configurer une connexion à un serveur/une BDD, ou encore spécifier la configuration de nos logs.
+* dossier data : Répertorie les fichiers de données en entrée dans un premier sous-dossier et les données en sortie dans un second.
+* dossier documentation : Permets d'enregistrer dans un emplacement défini les documentations relatives à votre projet. Pour le starter pack, on y retrouve les documents rédigés sur les bonnes pratiques de développement (linters, formateurs, tests unitaires) et la Programmation Orientée Objet (POO) notamment.
+* dossier logs : Contient les fichiers de logs générés lors de l'exécution de nos programmes Python. Ce dossier a été spécifié dans le fichier du dossier config.
+* dossier src : Les différents scripts Python nécessaires au fonctionnement du projet sont enregistrés dans ce dossier et peuvent être appelés dans le traitement principal main.py.
+* dossier tests : Dossier où sont enregistrés les différents scripts permettant de faire les tests unitaires (TU) de notre code. Les tests qu'ils contient sont exécutés avec la commande "pytest" dans le terminal. La première fois qu'on lance le protocole de test dans notre répertoire projet, un dossier automatique ".pytest_cache" est également créé.
+* fichier main.py : Script principal du projet que l'on exécute pour que le traitement attendu soit réalisé. Il fait appel aux différentes classes du dossier src.
+* fichier COVERAGE : Il est automatiquement généré dès qu'on évalue la couverture (coverage) des tests de notre projet. Pour   cela il faut installer le package coverage et exécuter la commande "coverage run -m pytest".
+* fichier setup.cfg : Fichier de configuration utilisé pour décrire de manière macro le contenu d'un répertoire projet et les informations principales qui en découlent.
+* fichier requirements.txt : Il contient les packages présents sur l'environnement de travail du développeur et qui sont donc nécessaires au bon fonctionnement du code. On génère ce fichier par la commande "pip3 freeze > requirements.txt"
+* fichier LICENSE : Spécifie par quelle license juridique est couvert notre projet. Ici, on retrouve la licence gratuite MIT qui accorde aux utilisateurs finaux du logiciel des droits tels que la copie, la modification, la distribution, etc. Celle-ci n'est pas soumise aux droits d'auteur et les développeurs sont libres d'apporter des modifications comme bon leur semble, elle est donc parfaitement adaptée au projet open source. En fonction de vos projets, se renseigner sur les autres licenses existantes pour protéger votre projet. 
+* fichier README.md : C'est le présent fichier. Il constitue la documentation principale du projet, c'est-à-dire celle qui doit être lue en premier par un utilisateur qui veut comprendre de quoi le projet traite.
 
 ## Cas d'usage utilisé dans le starter pack
 
