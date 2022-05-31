@@ -2,7 +2,7 @@
    Auteur : Estelle Rosset
    Modifié le : 25/04/2022
    Description : Script permettant l'import
-   de données à partir d'un fichier CSV."""
+   de données à partir d'un fichier csv."""
 
 import logging
 import pandas as pd
