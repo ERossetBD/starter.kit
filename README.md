@@ -2,9 +2,12 @@
 ***
 
 ## Informations
-> Créé le : 29/04/2022
-> Interlocuteurs : Estelle ROSSET, Raphaël LE GOFF, Erwan JOSSE
+> Initié le : 29/04/2022
+
+> Interlocuteurs : Estelle ROSSET, Long NGUYEN, Erwan JOSSE, Raphaël LE GOFF
+
 > Dans le cadre du projet interne DataScience STARTER PACK PYTHON - POO - BONNES PRATIQUES
+
 
 ## Description
 L'objectif de ce projet est d'avoir un package de démarrage pour vos projets réalisés en language Python.
