@@ -1,17 +1,17 @@
 import sys
 import os
-import pytest
-sys.path.insert(1, 'src')
 
-from Logement import Logement
-from ExportData import ExportData
+sys.path.insert(1, "src")
+from Logement import Logement  # noqa: E402
+from ExportData import ExportData  # noqa: E402
+
 
 def test_export():
     lst_test = []
-    lst_test.append(Logement(0, "10 rue des Pins", "Niort", "Appartement", 30, 70000))
-    lst_test.append(Logement(1, "12 rue des Pins", "Niort", "Maison", 110, 160000))
+    lst_test.append(Logement(0, "1 rue Pavé ", "Ry", "Appartement", 30, 70000))
+    lst_test.append(Logement(1, "2 rue du Pin", "Pau", "Maison", 110, 160000))
 
     ExportData().export(lst_test, "exportTest.csv")
-    csvExiste=os.path.isfile("data/output/exportTest.csv")
+    csvExiste = os.path.isfile("data/output/exportTest.csv")
 
-    assert csvExiste == True
+    assert csvExiste is True

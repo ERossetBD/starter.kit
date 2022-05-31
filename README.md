@@ -24,7 +24,7 @@ Vous pouvez y retrouver différents dossiers et eléments dont chacun répond à
 * fichier COVERAGE : Il est automatiquement généré dès qu'on évalue la couverture (coverage) des tests de notre projet. Pour   cela il faut installer le package coverage et exécuter la commande "coverage run -m pytest".
 * fichier setup.cfg : Fichier de configuration utilisé pour décrire de manière macro le contenu d'un répertoire projet et les informations principales qui en découlent.
 * fichier requirements.txt : Il contient les packages présents sur l'environnement de travail du développeur et qui sont donc nécessaires au bon fonctionnement du code. On génère ce fichier par la commande "pip3 freeze > requirements.txt"
-* fichier LICENSE : Spécifie par quelle license juridique est couvert notre projet. Ici, on retrouve la licence gratuite MIT qui accorde aux utilisateurs finaux du logiciel des droits tels que la copie, la modification, la distribution, etc. Celle-ci n'est pas soumise aux droits d'auteur et les développeurs sont libres d'apporter des modifications comme bon leur semble, elle est donc parfaitement adaptée au projet open source. En fonction de vos projets, se renseigner sur les autres licenses existantes pour protéger votre projet. 
+* fichier LICENSE : Spécifie par quelle license juridique est couvert notre projet. Ici, on retrouve la licence gratuite MIT qui accorde aux utilisateurs finaux du logiciel des droits tels que la copie, la modification, la distribution, etc. Celle-ci n'est pas soumise aux droits d'auteur et les développeurs sont libres d'apporter des modifications comme bon leur semble, elle est donc parfaitement adaptée au projet open source. En fonction de vos projets, se renseigner sur les autres licenses existantes pour protéger votre projet.
 * fichier README.md : C'est le présent fichier. Il constitue la documentation principale du projet, c'est-à-dire celle qui doit être lue en premier par un utilisateur qui veut comprendre de quoi le projet traite.
 
 ## Cas d'usage utilisé dans le starter pack
@@ -38,9 +38,6 @@ Pour l'import des données, il y a une classe ImportData (src/ImportData.py), sa
 A partir de ce dataframe, nous créons une liste d'objets de type Logement (scr/Logement.py). Un logement est défini par un ID, une adresse, une ville, une catégorie (appartement ou maison), une surface et un prix. La fonction createListLogement() transforme ainsi le précédent dataframe en une liste de Logement.
 
 Ensuite, puisque nous avons des logements, nous pouvons leur appliquer la méthode updatePrice() qui va faire la mise à jour des prix.
-Une fois que nos données sont prêtes, on appelle la classe ExportData (scr/ExportData.py), qui à la manière du importData ne comporte pas d'attributs de classe mais une méthode export () qui nous permets d'envoyer les données dans le dossier data.output avec le nom de fichier souhaité à spécifier en paramètre. 
+Une fois que nos données sont prêtes, on appelle la classe ExportData (scr/ExportData.py), qui à la manière du importData ne comporte pas d'attributs de classe mais une méthode export () qui nous permets d'envoyer les données dans le dossier data.output avec le nom de fichier souhaité à spécifier en paramètre.
 
 Pour ce petit cas d'usage, nous avons mis en oeuvre les bonnes pratiques relatives à la POO, c'est-à-dire que le code est divisé en plusieurs classes dont chacune remplit des fonctions. L'objectif est d'éviter d'avoir un code main.py illisible et compact comprenant l'ensemble le code afin d'en faciliter la reprise et la compréhension.
-
-    
-
