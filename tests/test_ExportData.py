@@ -2,8 +2,8 @@ import sys
 import os
 
 sys.path.insert(1, "src")
-from Logement import Logement  # noqa: E402
-from ExportData import ExportData  # noqa: E402
+from Logement import Logement
+from ExportData import ExportData
 
 
 def test_export():

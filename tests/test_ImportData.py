@@ -1,7 +1,7 @@
 import sys
 
 sys.path.insert(1, "src")
-from ImportData import ImportData  # noqa: E402
+from ImportData import ImportData
 
 
 def test_load():

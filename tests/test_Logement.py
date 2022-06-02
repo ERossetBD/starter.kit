@@ -1,7 +1,7 @@
 import sys
 
 sys.path.insert(1, "src")
-from Logement import Logement  # noqa: E402
+from Logement import Logement
 
 
 def test_updatePrice_appartement():
